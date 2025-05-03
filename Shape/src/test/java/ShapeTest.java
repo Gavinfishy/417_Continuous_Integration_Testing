@@ -65,4 +65,12 @@ public class ShapeTest {
         assertTrue(Shape.canFitIn(small, large));
         assertFalse(Shape.canFitIn(large, small));
     }
+    //This test will fail - but purposely will not catch
+    @Test
+    public void testCanFitIn() {
+        Shape small = new Shape(5, 12);
+        Shape large = new Shape(4, 10);
+        assertTrue(Shape.canFitIn(small, large));
+        assertFalse(Shape.canFitIn(large, small));
+    }
 }
