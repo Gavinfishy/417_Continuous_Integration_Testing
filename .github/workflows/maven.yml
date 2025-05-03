@@ -18,11 +18,9 @@ jobs:
         java-version: '20'
         distribution: 'temurin'
 
-    - name: Run mvn clean
-      run: mvn clean
-
-    - name: Run mvn verify
-      run: mvn verify
-
-    - name: Run mvn test
-      run: mvn test
+    - name: Run Maven commands in Shape
+      working-directory: Shape
+      run: |
+        mvn clean
+        mvn verify
+        mvn test
