@@ -4,7 +4,7 @@
 This project explores advanced topics in Continuous Integration (CI) testing, including test flakiness and regression test selection. The goal is to understand and implement techniques that improve CI pipelines by optimizing test execution and reliability.
 
 ## Final Paper
-- [Class Paper](https://docs.google.com/document/d/1dKeKtgu8y5rM8IZV2DCvc2iv6NBBHNYdxxNedpQxDNw/edit?tab=t.0)
+[Class Paper](https://docs.google.com/document/d/1dKeKtgu8y5rM8IZV2DCvc2iv6NBBHNYdxxNedpQxDNw/edit?tab=t.0)
 
 ## Topics Covered
 - **Test Flakiness in CI**: Understanding and mitigating inconsistent test results.
@@ -15,6 +15,9 @@ This project explores advanced topics in Continuous Integration (CI) testing, in
 - [Regression Test Selection](http://sites.utexas.edu/august/files/2020/08/ISSRE2019.pdf)
 
 ## Tools Used
+[Github Actions](https://docs.github.com/en/actions)
+
+## Related Tools
 - [Jenkins](https://jenkins.io/)
 - [Travis CI](https://travis-ci.org/)
 - [GitFlow Incremental Builder](https://github.com/august782/gitflow-incremental-builder)
